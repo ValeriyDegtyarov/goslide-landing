@@ -1,6 +1,6 @@
 .tech-list {
     display: flex;
-    justify-content: center-;
+    justify-content: center;
     row-gap: 7rem;
     flex-wrap: wrap;
     margin: 10rem 0 8rem;
