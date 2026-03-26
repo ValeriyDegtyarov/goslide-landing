@@ -1,0 +1,56 @@
+.random-text {
+    margin-bottom: 13rem;
+
+    text-align: center;
+    color: var(--light);
+    font-size: 1.6rem;
+}
+
+.random-text-reviews {
+    margin-top: 3rem;
+
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1.1;
+    text-align: center;
+
+    a {
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.random-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0 1rem;
+
+    stroke: var(--primary);
+}
+
+
+@media (max-width: 768px){
+    .random-text{
+        margin-bottom: 10rem;
+    }
+    .random-text-item {
+            display: block;
+            margin: 2rem 0;
+    }
+
+    .random-text-reviews {
+        font-size: 1.8rem;
+    }
+
+    .random-icon{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}

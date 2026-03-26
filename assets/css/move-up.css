@@ -1,0 +1,35 @@
+.move-up {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: var(--moveup-z);
+
+    &:hover {
+        .move-up-icon {
+            stroke: var(--primary);
+        }
+    }
+}
+
+.move-up-icon {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+
+    stroke: var(--gray-text);
+    transition: stroke .2s linear;
+}
+
+
+
+@media (max-width: 768px){
+    .move-up-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .move-up {
+        right: 2rem;
+        bottom: 2rem;
+    }
+}

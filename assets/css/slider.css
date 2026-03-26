@@ -1,0 +1,45 @@
+.slider-arrows {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2.5rem;
+}
+
+.slider-arrows-prev,
+.slider-arrows-next {
+    padding: 0;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    opacity: 0.5;
+
+    transition: opacity .2s linear;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slider-arrows-prev {
+    transform: rotate(180deg);
+}
+
+.slider-arrows-icon {
+    display: block;
+    width: 4.5rem;
+    height: 4.5rem;
+
+    stroke: var(--primary);
+}
+
+
+@media (max-width: 768px) {
+    .slider-arrows {
+        justify-content: center;
+
+        margin-top: 4rem;
+
+    
+    }
+}
